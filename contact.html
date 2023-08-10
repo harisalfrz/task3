@@ -1,0 +1,58 @@
+<html>
+  <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Task-3-HarisAlfariz</title>
+  <link rel="stylesheet" type="text/css" href="contact.css">
+</head>
+<body>
+
+<nav>
+  <div class="nav-left">
+    <ul>
+      <li>
+        <img class="img_logo" src="logodw.png" alt="logo">
+      </li>
+      <li>
+        <a href="index.html" class="">Home</a>
+      </li>
+      <li>
+        <a href="index.html">Blog</a>
+      </li>
+    </ul>
+  </div>
+  <div class="nav-right">
+    <a href="contact.html">Contact Me</a>
+  </div>
+</nav>
+
+
+      <div class="container_form">
+        <h1 style="text-align: center;">Fill out the form below</h1>
+        <form action="">
+          <label for="name">Name</label>
+          <input type="text" id="input-name" placeholder="Your name..">
+      
+          <label for="email">Email</label>
+          <input type="email" id="input-email" placeholder="email">
+
+          <label for="phone">Phone</label>
+          <input type="number" id="input-phone" placeholder="phone">
+      
+          <label for="subject">subject</label>
+          <select id="input-subject" name="subject">
+            <option value=""hidden>select</option>
+            <option>frontend</option>
+            <option>backend</option>
+            <option>fullstack</option>
+          </select>
+      
+          <label for="message">Subject</label>
+          <textarea id="input-message" name="message" maxlength="100" placeholder="Write something.." style="height:100px;resize: none;"></textarea>
+      
+          <button class="button_submit" type="button" onclick="submitData()">submit</button>
+        </form>
+  </div>
+<script src="contact.js"></script>
+</body>
+</html>
