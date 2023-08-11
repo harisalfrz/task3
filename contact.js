@@ -17,7 +17,7 @@ function submitData(){
         return alert("message harus disini!");
     }
 
-    let emailReceiver= "muharsadika.id@gmail.com";
+    let emailReceiver= "harisalfariz23@gmail.com";
 
     let a= document.createElement("a");
     a.href= 
